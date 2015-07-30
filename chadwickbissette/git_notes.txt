@@ -1,0 +1,15 @@
+Git
+-git is a version control system based on “snapshots” in time as opposed to incremental change tracking
+-”git init” creates a repository which will be the root of a project. deleting “.git” deletes the repository
+-”git add” is used to stage (add) a file (a file that exists in the repository directory)
+-”git status” command is like pwd for git
+-”git commit -m [text comment]” creates a permanent snapshot with a unique checksum
+-use “ls -a” to show all files, including hidden files which begin with a dot
+-”git log” shows a history and description of commits
+-”git show” shows information such as differences between commits (see also “git diff”)
+-”git branch [branch-name]” creates a branch (--is there a manual for these commands?? yes, use “git help [command]”)
+-”git checkout [git-notes]” the checkout command moves to a branch
+-Branches are A → B → C within which there can be competing versions, (still unclear on master vs head, etc). The “git merge” command is used to merge competing branches.
+-”git remote add origin [link-- obtained from github website similar to clone]” connects a remote repository to a local repository. Must type it in the local repository directory that matches the name of the remote repository. Also, must first create the remote repository on the github website.
+-”git remote -v” checks whether a repository is related to a remote repository
+-”git push -u [origin] [master]” pushes master branch to remote

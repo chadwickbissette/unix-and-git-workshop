@@ -1,0 +1,20 @@
+Unix:
+-Multiprocess, multiuser operating system, released 1973 and still in use, handles many many small and highly specialized processes, data input-output redirect (--sounds like kernel, which manages processes). Shell is the userspace that interacts with kernel, which manages processes.
+-Data as plaintext files (not binary code, etc)
+
+Navigation and basic terminal commands:
+-absolute vs relative (“/” vs “ “)
+-pwd for present working directory
+-cd for change directory. “cd /” takes you to the root. “cd ..” to previous directory. “cd ../.. goes back two. cd ../somewhere-else. for “cd ~” tilda is replaced by absolute path
+-rm for remove
+-ls flags. -l (long), -t (time. orders by most recently modified)
+-use man ls to find all the flags
+-spaces delimit one item in the command line from the next!
+-backslash is used to trick computer to ignore spaces in paths, but in general use dashes and underscores
+-unix is case sensitive
+-clear command gets rid of text in terminal
+-the pipe command “|” uses the output of first command as input of the second command (command1 | command2)
+-in Terminal “>” is a redirection operator that send the output of a command on the left side to a file named on the right (it will overwrite). if “>>” it adds to existing file rather than overwrite
+-subl file.txt will open a file in sublime
+-mv [thing to move] [./where to move it to]... (--what is the dot? A: “I am here”)
+-”touch [file.txt]” creates file.txt
